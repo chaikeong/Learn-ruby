@@ -1,3 +1,4 @@
+#arrays and hashes
 my_array = ["one", "two", "three", "four"]
 my_hash = {"adam" => "apple", "ben" => "b...h", "charlie" => "cat"}
 
@@ -9,6 +10,7 @@ my_hash.each do |key, value|
   puts "#{key} : #{value}"
 end
 
+#ranges
 puts
 msg = "the quick brown fox jumps over the lazy dog."
 puts msg[2, 8]
